@@ -1,0 +1,40 @@
+{
+  "name": "pratice",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "6.10.3",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "preline": "2.0.3",
+    "storybook-addon-designs": "6.3.1",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vuex": "4.1.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-interactions": "^7.6.6",
+    "@storybook/addon-links": "^7.6.6",
+    "@storybook/blocks": "^7.6.6",
+    "@storybook/test": "^7.6.6",
+    "@storybook/vue": "^7.6.6",
+    "@storybook/vue-webpack5": "^7.6.6",
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.32",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.6",
+    "tailwindcss": "3.4.0",
+    "vue-loader": "^15.11.1"
+  }
+}
